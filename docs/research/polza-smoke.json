@@ -1,0 +1,4483 @@
+{
+ "summary": {
+  "started": "2026-10-03T22:07:10",
+  "duration_s": 400,
+  "sum_cost_rub": 12.1121,
+  "money_before": {
+   "balance": "803.33265445",
+   "spent_total": "3263.96084484",
+   "key_usage": 0.05900087,
+   "key_usage_daily": 0.05900087
+  },
+  "money_after": {
+   "balance": "791.03439332",
+   "spent_total": "3276.25910597",
+   "key_usage": 12.357262,
+   "key_usage_daily": 12.357262
+  },
+  "sdk_requests": [
+   {
+    "model": "openai/gpt-5.6-luna",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options",
+     "tools"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "openai/gpt-5.6-luna",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "tool"
+    ],
+    "keys": [
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options",
+     "tools"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "google/gemini-3.8-flash",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options",
+     "tools"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "google/gemini-3.8-flash",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "tool"
+    ],
+    "keys": [
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options",
+     "tools"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-sonnet-5",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options",
+     "tools"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-sonnet-5",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "tool"
+    ],
+    "keys": [
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options",
+     "tools"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-haiku-4.5",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "provider",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-haiku-4.5",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "provider",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-sonnet-5",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-sonnet-5",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "openai/gpt-5-nano",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "minimal"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "openai/gpt-5-nano",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "high"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "openai/gpt-5-nano",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning_effort",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": null,
+    "reasoning_effort": "minimal",
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "openai/gpt-5.6-luna",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "google/gemini-3.8-flash",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-sonnet-5",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "deepseek/deepseek-v4-flash",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "anthropic/claude-haiku-4.5",
+    "roles": [
+     "system",
+     "user",
+     "assistant",
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "provider",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "low"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   }
+  ]
+ },
+ "results": [
+  {
+   "check": "chat_lang",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "ru",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "talk",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.2,
+   "latency_s": 1.81,
+   "provider": "OpenAI",
+   "chunks": 47,
+   "finish_reason": "stop",
+   "content": "Привет, Дмитрий! После прогулки можно устроить уютный вечер: приготовить что-нибудь вкусное, посмотреть лёгкий фильм или почитать. А если хочется спокойствия — завари чай и включи приятную музыку.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 50,
+    "total_tokens": 117,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00859279,
+    "cost": 0.00859279,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 67,
+   "completion_tokens": 50,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00859279,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "en",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "talk",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.03,
+   "latency_s": 1.53,
+   "provider": "OpenAI",
+   "chunks": 37,
+   "finish_reason": "stop",
+   "content": "Hi, Dmitrii! Since you’ve just had a walk, make yourself something warm, put on a cozy film or music, and give yourself a calm, screen-light evening.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 40,
+    "total_tokens": 106,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00716456,
+    "cost": 0.00716456,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 66,
+   "completion_tokens": 40,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00716456,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "google/gemini-3.8-flash",
+   "variant": "ru",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "talk",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 2.76,
+   "latency_s": 3.15,
+   "provider": "Google",
+   "chunks": 5,
+   "finish_reason": "stop",
+   "content": "Привет, Дмитрий! Завари себе ароматный чай, завернись в плед и включи хороший душевный фильм или почитай книгу. А если хочется движения, можно приготовить что-нибудь вкусное к ужину.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 48,
+    "total_tokens": 104,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.0259891,
+    "cost": 0.0259891,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 56,
+   "completion_tokens": 48,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.0259891,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "google/gemini-3.8-flash",
+   "variant": "en",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "talk",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 4.01,
+   "latency_s": 4.41,
+   "provider": "Google",
+   "chunks": 5,
+   "finish_reason": "stop",
+   "content": "Hi Dmitrii! I think you should brew a warm cup of tea, wrap yourself in a cozy blanket, and watch a good movie or read a book. How was your walk?",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 37,
+    "total_tokens": 96,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.02142344,
+    "cost": 0.02142344,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 59,
+   "completion_tokens": 37,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.02142344,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "ru",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "talk",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.5,
+   "latency_s": 2.56,
+   "provider": "Claude Platform on AWS",
+   "chunks": 4,
+   "finish_reason": "stop",
+   "content": "Привет, Дмитрий! Может, чай горячий заварить и выбрать фильм или книгу — после прогулки самое то для уютного вечера 😊",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 95,
+    "completion_tokens": 55,
+    "total_tokens": 150,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.08663032,
+    "cost": 0.08663032,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 95,
+   "completion_tokens": 55,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.08663032,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "en",
+   "ok": false,
+   "lang_ok": false,
+   "tier": "talk",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.83,
+   "latency_s": 2.61,
+   "provider": "Claude Platform on AWS",
+   "chunks": 4,
+   "finish_reason": "stop",
+   "content": "Привет, Дмитрий! Может, отдохнуть с чашкой чая и чем-то приятным — книгой, фильмом или просто тишиной после прогулки?",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 87,
+    "completion_tokens": 59,
+    "total_tokens": 146,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.08943995,
+    "cost": 0.08943995,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 87,
+   "completion_tokens": 59,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.08943995,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "ru",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "cheap",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 3.09,
+   "latency_s": 3.46,
+   "provider": "StreamLake",
+   "chunks": 86,
+   "finish_reason": "stop",
+   "content": "Дмитрий, может, чайку горячего согреться и фильм хороший посмотреть? После прогулки самое то.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 73,
+    "completion_tokens": 172,
+    "total_tokens": 245,
+    "completion_tokens_details": {
+     "reasoning_tokens": 139,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00136689,
+    "cost": 0.00136689,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 73,
+   "completion_tokens": 172,
+   "reasoning_tokens": 139,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00136689,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "en",
+   "ok": false,
+   "lang_ok": false,
+   "tier": "cheap",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 3.23,
+   "latency_s": 4.13,
+   "provider": "StreamLake",
+   "chunks": 82,
+   "finish_reason": "stop",
+   "content": "О, Дмитрий, как славно, что ты вернулся! Приготовь себе чай с мятой и устройся с доброй книгой, вечером так уютно мечтать у окна.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 182,
+    "total_tokens": 248,
+    "completion_tokens_details": {
+     "reasoning_tokens": 127,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.0014095,
+    "cost": 0.0014095,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 66,
+   "completion_tokens": 182,
+   "reasoning_tokens": 127,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.0014095,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "openai/gpt-5-nano",
+   "variant": "ru",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "cheap",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 2.79,
+   "latency_s": 3.24,
+   "provider": "OpenAI",
+   "chunks": 37,
+   "finish_reason": "stop",
+   "content": "Привет, Дмитрий! Как насчёт уютного фильма или книги с чаем, или же немного прогулки, если хочется двигаться — что предпочитаешь?",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 229,
+    "total_tokens": 296,
+    "completion_tokens_details": {
+     "reasoning_tokens": 128,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.01111561,
+    "cost": 0.01111561,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 67,
+   "completion_tokens": 229,
+   "reasoning_tokens": 128,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.01111561,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "openai/gpt-5-nano",
+   "variant": "en",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "cheap",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 12.68,
+   "latency_s": 12.97,
+   "provider": "OpenAI",
+   "chunks": 36,
+   "finish_reason": "stop",
+   "content": "Nice, Dmitrii! How about a cozy movie with tea, or getting lost in a good book—if you want something quick, a 20-minute stretch after.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 66,
+    "completion_tokens": 313,
+    "total_tokens": 379,
+    "completion_tokens_details": {
+     "reasoning_tokens": 256,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.01504324,
+    "cost": 0.01504324,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 66,
+   "completion_tokens": 313,
+   "reasoning_tokens": 256,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.01504324,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "google/gemini-3.5-flash-lite",
+   "variant": "ru",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "cheap",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.43,
+   "latency_s": 1.82,
+   "provider": "Google",
+   "chunks": 6,
+   "finish_reason": "stop",
+   "content": "Привет, Дмитрий! Здорово, что прогулялся, свежий воздух всегда на пользу. Предлагаю закутаться в плед с чашкой ароматного чая и посмотреть хороший фильм или почитать уютную книгу.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 56,
+    "completion_tokens": 47,
+    "total_tokens": 103,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.01572223,
+    "cost": 0.01572223,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 56,
+   "completion_tokens": 47,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.01572223,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "google/gemini-3.5-flash-lite",
+   "variant": "en",
+   "ok": true,
+   "lang_ok": true,
+   "tier": "cheap",
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.56,
+   "latency_s": 1.79,
+   "provider": "Google",
+   "chunks": 5,
+   "finish_reason": "stop",
+   "content": "Hi Dmitrii! How was your walk? I think a cozy cup of tea and a good book or movie would be the perfect way to unwind this evening.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 59,
+    "completion_tokens": 32,
+    "total_tokens": 91,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.01143754,
+    "cost": 0.01143754,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 59,
+   "completion_tokens": 32,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.01143754,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "chat_lang",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "ru provider=openai (non-flex)",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.38,
+   "latency_s": 1.76,
+   "provider": "OpenAI",
+   "chunks": 49,
+   "finish_reason": "stop",
+   "content": "Привет, Дмитрий! После прогулки можно устроить уютный вечер: приготовить что-нибудь вкусное, посмотреть лёгкий фильм или почитать. А если хочется активности — попробуй немного растяжки и тёплый душ.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 67,
+    "completion_tokens": 52,
+    "total_tokens": 119,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00887375,
+    "cost": 0.00887375,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 67,
+   "completion_tokens": 52,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00887375,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "json_schema_strict",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "default",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 6.61,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "{\"mood\": \"anxious\", \"people\": [{\"name\": \"Аня\", \"relation\": \"сестра говорящего\"}, {\"name\": \"мама\", \"relation\": \"мать говорящего\"}], \"summary\": \"говорящий посетил маму в больнице с сестрой Аней, маме стало лучше, но говорящий всё ещё переживает\"}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 50,
+    "completion_tokens": 336,
+    "total_tokens": 386,
+    "completion_tokens_details": {
+     "reasoning_tokens": 248,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00236665,
+    "cost": 0.00236665,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 50,
+   "completion_tokens": 336,
+   "reasoning_tokens": 248,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00236665,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "json_schema_strict",
+   "model": "openai/gpt-5-nano",
+   "variant": "default",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 4.44,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "{\"mood\":\"anxious\",\"summary\":\"Автор сегодня вместе с сестрой Аней побывал у мамы в больнице. Мама стала лучше, но автор всё равно переживает.\",\"people\":[{\"name\":\"Собеседник\",\"relation\":\"говорящий\"},{\"name\":\"Аня\",\"relation\":\"сестра\"},{\"name\":\"мама\",\"relation\":\"мама\"}]}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 121,
+    "completion_tokens": 570,
+    "total_tokens": 691,
+    "completion_tokens_details": {
+     "reasoning_tokens": 448,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.02739977,
+    "cost": 0.02739977,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 121,
+   "completion_tokens": 570,
+   "reasoning_tokens": 448,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.02739977,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "json_schema_strict",
+   "model": "google/gemini-3.5-flash-lite",
+   "variant": "default",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 3.32,
+   "status": 200,
+   "provider": null,
+   "model_echo": "google/gemini-3.5-flash-lite",
+   "finish_reason": "stop",
+   "content": "{\n  \"mood\": \"anxious\",\n  \"summary\": \"Посещение мамы в больнице с сестрой Аней, маме лучше, но есть переживания.\",\n  \"people\": [\n    {\n      \"name\": \"Аня\",\n      \"relation\": \"сестра\"\n    },\n    {\n      \"name\": \"мама\",\n      \"relation\": \"мать\"\n    }\n  ]\n}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 227,
+    "completion_tokens": 98,
+    "total_tokens": 325,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.03665399,
+    "cost": 0.03665399,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 227,
+   "completion_tokens": 98,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.03665399,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "json_schema_strict",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "provider={'only': ['anthropic']}",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 19.8,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "{\"mood\":\"anxious\",\"summary\":\"Сегодня посетил маму в больнице вместе с сестрой Аней. Состояние мамы улучшается, но остаётся беспокойство о её здоровье.\",\"people\":[{\"name\":\"Аня\",\"relation\":\"сестра\"},{\"name\":\"мама\",\"relation\":\"мать\"}]}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 405,
+    "completion_tokens": 573,
+    "total_tokens": 978,
+    "completion_tokens_details": {
+     "reasoning_tokens": 475,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.38281236,
+    "cost": 0.38281236,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 405,
+   "completion_tokens": 573,
+   "reasoning_tokens": 475,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.38281236,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "json_schema_strict",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "default",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 3.64,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-sonnet-5",
+   "finish_reason": "stop",
+   "content": "{\"mood\":\"anxious\",\"summary\":\"Ходил с сестрой Аней к маме в больницу, маме уже лучше, но он всё равно переживает.\",\"people\":[{\"name\":\"Аня\",\"relation\":\"сестра\"},{\"name\":\"мама\",\"relation\":\"мама\"}]}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 437,
+    "completion_tokens": 94,
+    "total_tokens": 531,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.21236135,
+    "cost": 0.21236135,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 437,
+   "completion_tokens": 94,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.21236135,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "tools, default provider",
+   "ok": true,
+   "note": "tool_call",
+   "stream": false,
+   "latency_s": 1.66,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "tool_calls",
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "toolu_bdrk_01BBns9Wim3411mUmdkhdu89",
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "arguments": "{\"city\": \"Казань\"}"
+     }
+    }
+   ],
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 56,
+    "total_tokens": 638,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.10091262,
+    "cost": 0.10091262,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 582,
+   "completion_tokens": 56,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.10091262,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "tools, require_parameters",
+   "ok": true,
+   "note": "tool_call",
+   "stream": false,
+   "latency_s": 1.74,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "tool_calls",
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "toolu_bdrk_014jNiUvCgbHEpHEzCW7rRuQ",
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "arguments": "{\"city\": \"Казань\"}"
+     }
+    }
+   ],
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 56,
+    "total_tokens": 638,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.10091262,
+    "cost": 0.10091262,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 582,
+   "completion_tokens": 56,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.10091262,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "json_schema, default provider",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 3.66,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "{\"mood\":\"anxious\",\"summary\":\"Visited mom in the hospital with sister Anya today. Mom is getting better, but still worried.\",\"people\":[{\"name\":\"Anya\",\"relation\":\"sister\"},{\"name\":\"mom\",\"relation\":\"mother\"}]}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 58,
+    "total_tokens": 433,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.07785022,
+    "cost": 0.07785022,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 375,
+   "completion_tokens": 58,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.07785022,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "json_schema, require_parameters",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 1.85,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "{\"mood\":\"anxious\",\"summary\":\"Visited mom in the hospital with sister Anya today. Mom is feeling better, but the speaker is still worried.\",\"people\":[{\"name\":\"Anya\",\"relation\":\"sister\"},{\"name\":\"mom\",\"relation\":\"mother\"}]}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 61,
+    "total_tokens": 436,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.07960624,
+    "cost": 0.07960624,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 375,
+   "completion_tokens": 61,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.07960624,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "tool_roundtrip_raw",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "stream=False",
+   "ok": true,
+   "cost_rub": 0.01269017,
+   "latency_s": 1.87,
+   "final": "В Казани сейчас около **+7 °C и дождь**. Возьми зонтик и оденься потеплее ☔",
+   "step2_finish": "stop",
+   "provider": null,
+   "step1_finish": "tool_calls",
+   "step1_tool_calls": [
+    {
+     "id": "call_ERbT4M8xvFuU7TqGFg2zZQOF",
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "arguments": "{\"city\":\"Казань\"}"
+     }
+    }
+   ],
+   "first_tool_call_deltas": null,
+   "step1_cost": 0.00489344,
+   "step1_error": null
+  },
+  {
+   "check": "tool_roundtrip_raw",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "stream=True",
+   "ok": true,
+   "cost_rub": 0.01198776,
+   "latency_s": 1.49,
+   "final": "В Казани сейчас около **+7 °C**, идёт дождь. Не забудь взять зонтик ☔",
+   "step2_finish": "stop",
+   "provider": "OpenAI",
+   "step1_finish": "tool_calls",
+   "step1_tool_calls": [
+    {
+     "name": "get_weather",
+     "arguments": "{\"city\":\"Казань\"}",
+     "id": "call_bf40fyI9iUvZ8Fe9N27yhWej"
+    }
+   ],
+   "first_tool_call_deltas": [
+    {
+     "index": 0,
+     "id": "call_bf40fyI9iUvZ8Fe9N27yhWej",
+     "type": "function",
+     "function": {
+      "name": "get_weather"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "{\""
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "city"
+     }
+    }
+   ],
+   "step1_cost": 0.00489344,
+   "step1_error": null
+  },
+  {
+   "check": "tool_roundtrip_raw",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "stream=False",
+   "ok": true,
+   "cost_rub": 0.3537795,
+   "latency_s": 2.27,
+   "final": "Сейчас в Казани 7°C и идёт дождь, так что захвати зонтик! ☔",
+   "step2_finish": "stop",
+   "provider": null,
+   "step1_finish": "tool_calls",
+   "step1_tool_calls": [
+    {
+     "id": "toolu_01B5GsepoN8ZzWQNmjtQsjLJ",
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "arguments": "{\"city\": \"Казань\"}"
+     }
+    }
+   ],
+   "first_tool_call_deltas": null,
+   "step1_cost": 0.17630441,
+   "step1_error": null
+  },
+  {
+   "check": "tool_roundtrip_raw",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "stream=True",
+   "ok": true,
+   "cost_rub": 0.36431562,
+   "latency_s": 2.24,
+   "final": "Сейчас в Казани +7°C и дождь — лучше взять с собой зонтик!",
+   "step2_finish": "stop",
+   "provider": "Claude Platform on AWS",
+   "step1_finish": "tool_calls",
+   "step1_tool_calls": [
+    {
+     "name": "get_weather",
+     "arguments": "{\"city\": \"Казань\"}",
+     "id": "toolu_018N6vKLeuWa3ZiahkgRkCwb"
+    }
+   ],
+   "first_tool_call_deltas": [
+    {
+     "index": 0,
+     "id": "toolu_018N6vKLeuWa3ZiahkgRkCwb",
+     "type": "function",
+     "function": {
+      "name": "get_weather"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "{\"city\": \"Казань"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "\"}"
+     }
+    }
+   ],
+   "step1_cost": 0.19035257,
+   "step1_error": null
+  },
+  {
+   "check": "tool_roundtrip_raw",
+   "model": "google/gemini-3.8-flash",
+   "variant": "stream=False",
+   "ok": true,
+   "cost_rub": 0.06321672,
+   "latency_s": 2.94,
+   "final": "В Казани сейчас около 7 градусов тепла и идёт дождь. Одевайся потеплее и не забудь зонтик, если собираешься на улицу!",
+   "step2_finish": "stop",
+   "provider": null,
+   "step1_finish": "tool_calls",
+   "step1_tool_calls": [
+    {
+     "id": "call_903639",
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "arguments": "{\"city\":\"Казань\"}"
+     }
+    }
+   ],
+   "first_tool_call_deltas": null,
+   "step1_cost": 0.03968605,
+   "step1_error": null
+  },
+  {
+   "check": "tool_roundtrip_raw",
+   "model": "google/gemini-3.8-flash",
+   "variant": "stream=True",
+   "ok": true,
+   "cost_rub": 0.05171479,
+   "latency_s": 2.25,
+   "final": "В Казани сейчас около +7°C и идёт дождь. Одевайся теплее и не забудь зонтик, если собираешься на улицу!",
+   "step2_finish": "stop",
+   "provider": "Google",
+   "step1_finish": "tool_calls",
+   "step1_tool_calls": [
+    {
+     "name": "get_weather",
+     "arguments": "{\"city\":\"Kazan\"}",
+     "id": "call_1104850"
+    }
+   ],
+   "first_tool_call_deltas": [
+    {
+     "index": 0,
+     "id": "call_1104850",
+     "type": "function",
+     "function": {
+      "name": "get_weather"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "{\"city\":\"Kazan\"}"
+     }
+    }
+   ],
+   "step1_cost": 0.02914993,
+   "step1_error": null
+  },
+  {
+   "check": "stream_usage",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "include_usage=True",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 6.92,
+   "latency_s": 7.0,
+   "provider": "Venice",
+   "chunks": 20,
+   "finish_reason": "stop",
+   "content": "Привет.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 13,
+    "completion_tokens": 59,
+    "total_tokens": 72,
+    "completion_tokens_details": {
+     "reasoning_tokens": 93,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00147661,
+    "cost": 0.00147661,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 13,
+   "completion_tokens": 59,
+   "reasoning_tokens": 93,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00147661,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "stream_usage",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "include_usage=False",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 5.83,
+   "latency_s": 5.88,
+   "provider": "Venice",
+   "chunks": 13,
+   "finish_reason": "stop",
+   "content": "привет",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 13,
+    "completion_tokens": 43,
+    "total_tokens": 56,
+    "completion_tokens_details": {
+     "reasoning_tokens": 60,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00111604,
+    "cost": 0.00111604,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 13,
+   "completion_tokens": 43,
+   "reasoning_tokens": 60,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00111604,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "stream_usage",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "include_usage=True",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 11.2,
+   "latency_s": 11.37,
+   "provider": "Azure",
+   "chunks": 3,
+   "finish_reason": "stop",
+   "content": "Привет",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 14,
+    "completion_tokens": 6,
+    "total_tokens": 20,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00117068,
+    "cost": 0.00117068,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 14,
+   "completion_tokens": 6,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00117068,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "stream_usage",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "include_usage=False",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.24,
+   "latency_s": 1.77,
+   "provider": "OpenAI",
+   "chunks": 3,
+   "finish_reason": "stop",
+   "content": "Привет",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 14,
+    "completion_tokens": 6,
+    "total_tokens": 20,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00117068,
+    "cost": 0.00117068,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 14,
+   "completion_tokens": 6,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00117068,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "stream_usage",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "include_usage=True",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.85,
+   "latency_s": 2.2,
+   "provider": "Claude Platform on AWS",
+   "chunks": 2,
+   "finish_reason": "stop",
+   "content": "Привет!",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 18,
+    "completion_tokens": 6,
+    "total_tokens": 24,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.01123853,
+    "cost": 0.01123853,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 18,
+   "completion_tokens": 6,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.01123853,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "stream_usage",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "include_usage=False",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 2.05,
+   "latency_s": 2.15,
+   "provider": "Claude Platform on AWS",
+   "chunks": 2,
+   "finish_reason": "stop",
+   "content": "Привет.",
+   "tool_calls": null,
+   "first_tool_call_deltas": null,
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 18,
+    "completion_tokens": 6,
+    "total_tokens": 24,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.01123853,
+    "cost": 0.01123853,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 18,
+   "completion_tokens": 6,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.01123853,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "no reasoning field",
+   "ok": true,
+   "note": "reasoning_tokens=2304",
+   "stream": false,
+   "latency_s": 14.24,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 2364,
+    "total_tokens": 2416,
+    "completion_tokens_details": {
+     "reasoning_tokens": 2304,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.11100388,
+    "cost": 0.11100388,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 52,
+   "completion_tokens": 2364,
+   "reasoning_tokens": 2304,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.11100388,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "top-level reasoning_effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=448",
+   "stream": false,
+   "latency_s": 15.52,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 504,
+    "total_tokens": 556,
+    "completion_tokens_details": {
+     "reasoning_tokens": 448,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.02390529,
+    "cost": 0.02390529,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 52,
+   "completion_tokens": 504,
+   "reasoning_tokens": 448,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.02390529,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "reasoning.effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=0",
+   "stream": false,
+   "latency_s": 1.12,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 20,
+    "total_tokens": 72,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00124092,
+    "cost": 0.00124092,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 52,
+   "completion_tokens": 20,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00124092,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "suffix @reasoning_effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=0",
+   "stream": false,
+   "latency_s": 1.04,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "Глеб",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 20,
+    "total_tokens": 72,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00124092,
+    "cost": 0.00124092,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 52,
+   "completion_tokens": 20,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00124092,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "top-level reasoning_effort=high",
+   "ok": true,
+   "note": "reasoning_tokens=384",
+   "stream": false,
+   "latency_s": 3.95,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 442,
+    "total_tokens": 494,
+    "completion_tokens_details": {
+     "reasoning_tokens": 384,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.021002,
+    "cost": 0.021002,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 52,
+   "completion_tokens": 442,
+   "reasoning_tokens": 384,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.021002,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "reasoning.effort=high",
+   "ok": true,
+   "note": "reasoning_tokens=512",
+   "stream": false,
+   "latency_s": 4.76,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 52,
+    "completion_tokens": 553,
+    "total_tokens": 605,
+    "completion_tokens_details": {
+     "reasoning_tokens": 512,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.02619982,
+    "cost": 0.02619982,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 52,
+   "completion_tokens": 553,
+   "reasoning_tokens": 512,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.02619982,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "no reasoning field",
+   "ok": true,
+   "note": "reasoning_tokens=147",
+   "stream": false,
+   "latency_s": 2.28,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "ВикаВика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 152,
+    "total_tokens": 205,
+    "completion_tokens_details": {
+     "reasoning_tokens": 147,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00578901,
+    "cost": 0.00578901,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 53,
+   "completion_tokens": 152,
+   "reasoning_tokens": 147,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00578901,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "top-level reasoning_effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=110",
+   "stream": false,
+   "latency_s": 3.35,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 114,
+    "total_tokens": 167,
+    "completion_tokens_details": {
+     "reasoning_tokens": 110,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00092109,
+    "cost": 0.00092109,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 53,
+   "completion_tokens": 114,
+   "reasoning_tokens": 110,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00092109,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "reasoning.effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=88",
+   "stream": false,
+   "latency_s": 7.39,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 68,
+    "total_tokens": 121,
+    "completion_tokens_details": {
+     "reasoning_tokens": 88,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00216833,
+    "cost": 0.00216833,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 53,
+   "completion_tokens": 68,
+   "reasoning_tokens": 88,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00216833,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "suffix @reasoning_effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=84",
+   "stream": false,
+   "latency_s": 1.78,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 132,
+    "completion_tokens": 89,
+    "total_tokens": 221,
+    "completion_tokens_details": {
+     "reasoning_tokens": 84,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.01376443,
+    "cost": 0.01376443,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 132,
+   "completion_tokens": 89,
+   "reasoning_tokens": 84,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.01376443,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "top-level reasoning_effort=high",
+   "ok": true,
+   "note": "reasoning_tokens=77",
+   "stream": false,
+   "latency_s": 2.07,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 81,
+    "total_tokens": 134,
+    "completion_tokens_details": {
+     "reasoning_tokens": 77,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00070475,
+    "cost": 0.00070475,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 53,
+   "completion_tokens": 81,
+   "reasoning_tokens": 77,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00070475,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "reasoning",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "reasoning.effort=high",
+   "ok": true,
+   "note": "reasoning_tokens=75",
+   "stream": false,
+   "latency_s": 2.39,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "Вика",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 53,
+    "completion_tokens": 79,
+    "total_tokens": 132,
+    "completion_tokens_details": {
+     "reasoning_tokens": 75,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00069164,
+    "cost": 0.00069164,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 53,
+   "completion_tokens": 79,
+   "reasoning_tokens": 75,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00069164,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "openai/gpt-5-nano",
+   "variant": "auto call1",
+   "ok": true,
+   "note": "cached=0 write=0 prompt=7895",
+   "stream": false,
+   "latency_s": 1.84,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "4",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 7895,
+    "completion_tokens": 68,
+    "total_tokens": 7963,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.04939684,
+    "cost": 0.04939684,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 7895,
+   "completion_tokens": 68,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.04939684,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "openai/gpt-5-nano",
+   "variant": "auto call2",
+   "ok": true,
+   "note": "cached=7808 write=0 prompt=7895",
+   "stream": false,
+   "latency_s": 2.71,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-nano",
+   "finish_reason": "stop",
+   "content": "6",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 7895,
+    "completion_tokens": 65,
+    "total_tokens": 7960,
+    "completion_tokens_details": {
+     "reasoning_tokens": 89,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 7808,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00812335,
+    "cost": 0.00812335,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 7895,
+   "completion_tokens": 65,
+   "reasoning_tokens": 89,
+   "cached_tokens": 7808,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00812335,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "auto call1",
+   "ok": true,
+   "note": "cached=0 write=0 prompt=7889",
+   "stream": false,
+   "latency_s": 2.4,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "4",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 7889,
+    "completion_tokens": 49,
+    "total_tokens": 7938,
+    "completion_tokens_details": {
+     "reasoning_tokens": 46,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.02618062,
+    "cost": 0.02618062,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 7889,
+   "completion_tokens": 49,
+   "reasoning_tokens": 46,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.02618062,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "auto call2",
+   "ok": true,
+   "note": "cached=7680 write=0 prompt=7889",
+   "stream": false,
+   "latency_s": 2.89,
+   "status": 200,
+   "provider": null,
+   "model_echo": "deepseek/deepseek-v4-flash",
+   "finish_reason": "stop",
+   "content": "6",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 7889,
+    "completion_tokens": 68,
+    "total_tokens": 7957,
+    "completion_tokens_details": {
+     "reasoning_tokens": 65,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 7680,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.00616574,
+    "cost": 0.00616574,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 7889,
+   "completion_tokens": 68,
+   "reasoning_tokens": 65,
+   "cached_tokens": 7680,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.00616574,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "google/gemini-3.5-flash-lite",
+   "variant": "auto call1",
+   "ok": true,
+   "note": "cached=0 write=0 prompt=9107",
+   "stream": false,
+   "latency_s": 1.83,
+   "status": 200,
+   "provider": null,
+   "model_echo": "google/gemini-3.5-flash-lite",
+   "finish_reason": "stop",
+   "content": "4",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 9107,
+    "completion_tokens": 1,
+    "total_tokens": 9108,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.32013415,
+    "cost": 0.32013415,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 9107,
+   "completion_tokens": 1,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.32013415,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "google/gemini-3.5-flash-lite",
+   "variant": "auto call2",
+   "ok": true,
+   "note": "cached=0 write=0 prompt=9107",
+   "stream": false,
+   "latency_s": 1.96,
+   "status": 200,
+   "provider": null,
+   "model_echo": "google/gemini-3.5-flash-lite",
+   "finish_reason": "stop",
+   "content": "6",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 9107,
+    "completion_tokens": 1,
+    "total_tokens": 9108,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.32013415,
+    "cost": 0.32013415,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 9107,
+   "completion_tokens": 1,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.32013415,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "no cache_control call1",
+   "ok": true,
+   "note": "cached=0 write=0 prompt=9432",
+   "stream": false,
+   "latency_s": 1.14,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "4",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 9432,
+    "completion_tokens": 5,
+    "total_tokens": 9437,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 1.10711208,
+    "cost": 1.10711208,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 9432,
+   "completion_tokens": 5,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 1.10711208,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "no cache_control call2",
+   "ok": true,
+   "note": "cached=0 write=0 prompt=9432",
+   "stream": false,
+   "latency_s": 1.54,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "6",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 9432,
+    "completion_tokens": 5,
+    "total_tokens": 9437,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 1.10711208,
+    "cost": 1.10711208,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 9432,
+   "completion_tokens": 5,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 1.10711208,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "cache_control 5m call1",
+   "ok": true,
+   "note": "cached=0 write=9410 prompt=9432",
+   "stream": false,
+   "latency_s": 1.15,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "4",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 9432,
+    "completion_tokens": 5,
+    "total_tokens": 9437,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 9410,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 1.38251455,
+    "cost": 1.38251455,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 9432,
+   "completion_tokens": 5,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 9410,
+   "cost_rub": 1.38251455,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "caching",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "cache_control 5m call2",
+   "ok": true,
+   "note": "cached=9410 write=0 prompt=9432",
+   "stream": false,
+   "latency_s": 1.6,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "6",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 9432,
+    "completion_tokens": 5,
+    "total_tokens": 9437,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 9410,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.11566318,
+    "cost": 0.11566318,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 9432,
+   "completion_tokens": 5,
+   "reasoning_tokens": 0,
+   "cached_tokens": 9410,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.11566318,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "embeddings",
+   "model": "qwen/qwen3-embedding-8b",
+   "variant": "full",
+   "ok": true,
+   "dims": 4096,
+   "cos_ru_en": 0.8226,
+   "cos_ru_unrelated": 0.1629,
+   "cos_en_unrelated": 0.1536,
+   "latency_s": 3.46,
+   "cost_rub": 5.736e-05,
+   "provider": null,
+   "usage": {
+    "prompt_tokens": 49,
+    "total_tokens": 49,
+    "cost_rub": 5.736e-05,
+    "cost": 5.736e-05
+   }
+  },
+  {
+   "check": "embeddings",
+   "model": "qwen/qwen3-embedding-8b",
+   "variant": "dimensions=1024",
+   "ok": true,
+   "dims": 1024,
+   "cos_vs_full_prefix": 0.9999,
+   "norm": 1.0,
+   "cos_ru_en": 0.8487,
+   "cos_ru_unrelated": 0.1339,
+   "cost_rub": 5.736e-05,
+   "provider": null
+  },
+  {
+   "check": "embeddings",
+   "model": "qwen/qwen3-embedding-4b",
+   "variant": "full",
+   "ok": true,
+   "dims": 2560,
+   "cos_ru_en": 0.8801,
+   "cos_ru_unrelated": 0.205,
+   "cos_en_unrelated": 0.1368,
+   "latency_s": 1.24,
+   "cost_rub": 0.00011473,
+   "provider": null,
+   "usage": {
+    "prompt_tokens": 49,
+    "total_tokens": 49,
+    "cost_rub": 0.00011473,
+    "cost": 0.00011473
+   }
+  },
+  {
+   "check": "embeddings",
+   "model": "qwen/qwen3-embedding-4b",
+   "variant": "dimensions=1024",
+   "ok": true,
+   "dims": 1024,
+   "cos_vs_full_prefix": 0.9999,
+   "norm": 1.0,
+   "cos_ru_en": 0.885,
+   "cos_ru_unrelated": 0.2328,
+   "cost_rub": 0.00011473,
+   "provider": null
+  },
+  {
+   "check": "embeddings",
+   "model": "baai/bge-m3",
+   "variant": "full",
+   "ok": true,
+   "dims": 1024,
+   "cos_ru_en": 0.9439,
+   "cos_ru_unrelated": 0.4046,
+   "cos_en_unrelated": 0.3801,
+   "latency_s": 1.0,
+   "cost_rub": 5.151e-05,
+   "provider": null,
+   "usage": {
+    "prompt_tokens": 44,
+    "total_tokens": 44,
+    "cost_rub": 5.151e-05,
+    "cost": 5.151e-05
+   }
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "polza:web_search",
+   "ok": false,
+   "annotations_n": 0,
+   "annotations_sample": [],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 0.02,
+   "status": 400,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Серверные инструменты (polza:*) недоступны для организации",
+    "trace_id": "b92f690e-22b5-4741-8301-15efa02026a7"
+   }
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "polza:web_fetch",
+   "ok": false,
+   "annotations_n": 0,
+   "annotations_sample": [],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 0.02,
+   "status": 400,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Серверные инструменты (polza:*) недоступны для организации",
+    "trace_id": "9d61018d-8afe-4667-be30-704fe4a28624"
+   }
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "web_search + function tool",
+   "ok": false,
+   "annotations_n": 0,
+   "annotations_sample": [],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 0.02,
+   "status": 400,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Серверные инструменты (polza:*) недоступны для организации",
+    "trace_id": "ca6b778b-ac30-4e42-b6a4-c5fc687692e4"
+   }
+  },
+  {
+   "check": "images",
+   "model": "tongyi-mai/z-image",
+   "variant": "images.generate sync",
+   "ok": false,
+   "error": "BadRequestError(\"Error code: 400 - {'error': {'traceId': '2ad6771a-9d35-4614-ac75-a033b9c02464', 'message': 'Модель tongyi-mai/z-image требует указать aspect_ratio. Допустимые значения: 1:1, 4:3, 3:4, 16:9, 9:16', 'code': 'IMAGE_REQUEST_ERROR'}}\")",
+   "latency_s": 0.11
+  },
+  {
+   "check": "jev_batch",
+   "model": "typesafe/jev",
+   "variant": "9 questions RU+EN",
+   "ok": true,
+   "status": 200,
+   "latency_s": 0.41,
+   "model_echo": "jev-1.13.0",
+   "answers": {
+    "reaction_rev_ru": {
+     "type": "choice",
+     "choice": "neutral",
+     "confidence": 0.95,
+     "probabilities": {
+      "ignored": 0.02,
+      "loved": 0,
+      "annoyed": 0,
+      "neutral": 0.96,
+      "liked": 0.02
+     }
+    },
+    "reaction_fwd_en": {
+     "type": "choice",
+     "choice": "neutral",
+     "confidence": 0.92,
+     "probabilities": {
+      "ignored": 0.03,
+      "annoyed": 0,
+      "loved": 0,
+      "neutral": 0.94,
+      "liked": 0.03
+     }
+    },
+    "busy_ru": {
+     "type": "noul",
+     "noul": 0.95
+    },
+    "natural_ru": {
+     "type": "noul",
+     "noul": 0.3
+    },
+    "absorbed_ru": {
+     "type": "score",
+     "score": 1.96,
+     "confidence": 0.94,
+     "legend": {
+      "0": "Свободен и болтает",
+      "1": "Чем-то занят, но может коротко ответить",
+      "2": "Занят созвоном, встречей или сосредоточенной работой"
+     },
+     "probabilities": {
+      "0": 0,
+      "1": 0.04,
+      "2": 0.96
+     }
+    },
+    "reaction_fwd_ru": {
+     "type": "choice",
+     "choice": "neutral",
+     "confidence": 0.9,
+     "probabilities": {
+      "liked": 0.03,
+      "annoyed": 0,
+      "loved": 0,
+      "neutral": 0.92,
+      "ignored": 0.05
+     }
+    },
+    "busy_en": {
+     "type": "noul",
+     "noul": 0.96
+    },
+    "natural_en": {
+     "type": "noul",
+     "noul": 0.3
+    },
+    "absorbed_en": {
+     "type": "score",
+     "score": 1.98,
+     "confidence": 0.97,
+     "legend": {
+      "0": "Free and chatting",
+      "1": "Doing something but can talk briefly",
+      "2": "Busy with a call, meeting or focused work"
+     },
+     "probabilities": {
+      "0": 0,
+      "1": 0.02,
+      "2": 0.98
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 1015,
+    "output_tokens": 267,
+    "cost_rub": 0.0178236
+   },
+   "cost_rub": 0.0178236,
+   "cost_rub_type": "float",
+   "top_level_keys": [
+    "answers",
+    "model",
+    "usage"
+   ]
+  },
+  {
+   "check": "jev_pinned",
+   "model": "jev-1.13.0",
+   "variant": "string state, 1 question",
+   "ok": true,
+   "status": 200,
+   "latency_s": 0.31,
+   "model_echo": "jev-1.13.0",
+   "answers": {
+    "busy_ru": {
+     "type": "noul",
+     "noul": 0.95
+    }
+   },
+   "usage": {
+    "input_tokens": 442,
+    "output_tokens": 21,
+    "cost_rub": 0.00776161
+   },
+   "cost_rub": 0.00776161,
+   "cost_rub_type": "float",
+   "top_level_keys": [
+    "answers",
+    "model",
+    "usage"
+   ]
+  },
+  {
+   "check": "jev_error_shape",
+   "model": "typesafe/jev",
+   "variant": "score with 1 level (invalid)",
+   "ok": false,
+   "status": 200,
+   "latency_s": 0.51,
+   "model_echo": "jev-1.13.0",
+   "answers": {
+    "bad": {
+     "type": "score",
+     "score": 0,
+     "confidence": 1,
+     "legend": {
+      "0": "only one"
+     },
+     "probabilities": {
+      "0": 1
+     }
+    }
+   },
+   "usage": {
+    "input_tokens": 445,
+    "output_tokens": 17,
+    "cost_rub": 0.00781429
+   },
+   "cost_rub": 0.00781429,
+   "cost_rub_type": "float",
+   "top_level_keys": [
+    "answers",
+    "model",
+    "usage"
+   ]
+  },
+  {
+   "check": "jev_error_shape",
+   "model": "typesafe/jev",
+   "variant": "choice without criteria (invalid)",
+   "ok": true,
+   "status": 400,
+   "latency_s": 0.57,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Некорректный запрос.",
+    "trace_id": "7176a65f-e79e-45de-a53b-ced5803ece39",
+    "metadata": {
+     "raw": "[\n  {\n    \"expected\": \"record\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"questions\",\n      \"bad\",\n      \"criteria\"\n    ],\n    \"message\": \"Invalid input: expected record, received undefined\"\n  ..."
+    }
+   },
+   "detail": {
+    "error_type": "bad_request",
+    "message": "Некорректный запрос."
+   }
+  },
+  {
+   "check": "sdk_tool_roundtrip",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "run_streamed",
+   "ok": true,
+   "latency_s": 3.91,
+   "ttft_s": 3.71,
+   "events": [
+    "tool_called",
+    "tool_output",
+    "message_output_created"
+   ],
+   "final": "Я обещала напомнить тебе позвонить маме в 19:00 и спросить про анализы.",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 1.5,
+     "raw_usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 129,
+      "total_tokens": 150,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.00597047,
+      "cost": 0.00597047,
+      "plugins": null
+     },
+     "cost_rub": 0.00597047,
+     "sdk_usage": {
+      "input": 129,
+      "output": 21,
+      "cached": 0,
+      "reasoning": 0
+     }
+    },
+    {
+     "latency_s": 2.4,
+     "raw_usage": {
+      "completion_tokens": 28,
+      "prompt_tokens": 178,
+      "total_tokens": 206,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.00810111,
+      "cost": 0.00810111,
+      "plugins": null
+     },
+     "cost_rub": 0.00810111,
+     "sdk_usage": {
+      "input": 178,
+      "output": 28,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.01407158,
+   "costs_per_call": [
+    0.00597047,
+    0.00810111
+   ]
+  },
+  {
+   "check": "sdk_tool_roundtrip",
+   "model": "google/gemini-3.8-flash",
+   "variant": "run_streamed",
+   "ok": true,
+   "latency_s": 6.43,
+   "ttft_s": 6.06,
+   "events": [
+    "tool_called",
+    "tool_output",
+    "message_output_created"
+   ],
+   "final": "Дмитрий, я обещала напомнить вам позвонить маме сегодня в 19:00 и узнать про её анализы. Не забудьте уделить ей время!",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 3.32,
+     "raw_usage": {
+      "completion_tokens": 119,
+      "prompt_tokens": 95,
+      "total_tokens": 214,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 101,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.06058269,
+      "cost": 0.06058269,
+      "plugins": null
+     },
+     "cost_rub": 0.06058269,
+     "sdk_usage": {
+      "input": 95,
+      "output": 119,
+      "cached": 0,
+      "reasoning": 101
+     }
+    },
+    {
+     "latency_s": 3.12,
+     "raw_usage": {
+      "completion_tokens": 38,
+      "prompt_tokens": 132,
+      "total_tokens": 170,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.02827192,
+      "cost": 0.02827192,
+      "plugins": null
+     },
+     "cost_rub": 0.02827192,
+     "sdk_usage": {
+      "input": 132,
+      "output": 38,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.08885461,
+   "costs_per_call": [
+    0.06058269,
+    0.02827192
+   ]
+  },
+  {
+   "check": "sdk_tool_roundtrip",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "run_streamed",
+   "ok": true,
+   "latency_s": 4.63,
+   "ttft_s": 4.31,
+   "events": [
+    "tool_called",
+    "tool_output",
+    "message_output_created"
+   ],
+   "final": "Дмитрий, я обещала напомнить тебе позвонить маме в 19:00 и спросить про анализы 😊",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 2.34,
+     "raw_usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 568,
+      "total_tokens": 622,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.19620597,
+      "cost": 0.19620597,
+      "plugins": null
+     },
+     "cost_rub": 0.19620597,
+     "sdk_usage": {
+      "input": 568,
+      "output": 54,
+      "cached": 0,
+      "reasoning": 0
+     }
+    },
+    {
+     "latency_s": 2.29,
+     "raw_usage": {
+      "completion_tokens": 43,
+      "prompt_tokens": 648,
+      "total_tokens": 691,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.20205937,
+      "cost": 0.20205937,
+      "plugins": null
+     },
+     "cost_rub": 0.20205937,
+     "sdk_usage": {
+      "input": 648,
+      "output": 43,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.39826534,
+   "costs_per_call": [
+    0.19620597,
+    0.20205937
+   ]
+  },
+  {
+   "check": "sdk_cache_control",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "call1",
+   "ok": true,
+   "cached_tokens": 9410,
+   "cache_write_tokens": 0,
+   "note": "cached=9410 write=0",
+   "latency_s": 1.46,
+   "ttft_s": 1.4,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "4",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 1.46,
+     "raw_usage": {
+      "completion_tokens": 5,
+      "prompt_tokens": 9442,
+      "total_tokens": 9447,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 9410,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.11683386,
+      "cost": 0.11683386,
+      "plugins": null
+     },
+     "cost_rub": 0.11683386,
+     "sdk_usage": {
+      "input": 9442,
+      "output": 5,
+      "cached": 9410,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.11683386,
+   "costs_per_call": [
+    0.11683386
+   ]
+  },
+  {
+   "check": "sdk_cache_control",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "call2",
+   "ok": true,
+   "cached_tokens": 9410,
+   "cache_write_tokens": 0,
+   "note": "cached=9410 write=0",
+   "latency_s": 1.27,
+   "ttft_s": 1.17,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "6",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 1.26,
+     "raw_usage": {
+      "completion_tokens": 5,
+      "prompt_tokens": 9442,
+      "total_tokens": 9447,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 9410,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.11683386,
+      "cost": 0.11683386,
+      "plugins": null
+     },
+     "cost_rub": 0.11683386,
+     "sdk_usage": {
+      "input": 9442,
+      "output": 5,
+      "cached": 9410,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.11683386,
+   "costs_per_call": [
+    0.11683386
+   ]
+  },
+  {
+   "check": "sdk_cache_control",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "call1",
+   "ok": true,
+   "cached_tokens": 0,
+   "cache_write_tokens": 12309,
+   "note": "cached=0 write=12309",
+   "latency_s": 3.3,
+   "ttft_s": 2.86,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "4",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 3.29,
+     "raw_usage": {
+      "completion_tokens": 3,
+      "prompt_tokens": 12345,
+      "total_tokens": 12348,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 12309,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 3.61441597,
+      "cost": 3.61441597,
+      "plugins": null
+     },
+     "cost_rub": 3.61441597,
+     "sdk_usage": {
+      "input": 12345,
+      "output": 3,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 3.61441597,
+   "costs_per_call": [
+    3.61441597
+   ]
+  },
+  {
+   "check": "sdk_cache_control",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "call2",
+   "ok": true,
+   "cached_tokens": 12309,
+   "cache_write_tokens": 0,
+   "note": "cached=12309 write=0",
+   "latency_s": 2.53,
+   "ttft_s": 2.48,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "6",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 2.53,
+     "raw_usage": {
+      "completion_tokens": 3,
+      "prompt_tokens": 12345,
+      "total_tokens": 12348,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 12309,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.30013894,
+      "cost": 0.30013894,
+      "plugins": null
+     },
+     "cost_rub": 0.30013894,
+     "sdk_usage": {
+      "input": 12345,
+      "output": 3,
+      "cached": 12309,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.30013894,
+   "costs_per_call": [
+    0.30013894
+   ]
+  },
+  {
+   "check": "sdk_reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "extra_body reasoning.effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=0",
+   "reasoning_tokens": 0,
+   "sent_reasoning": {
+    "effort": "minimal"
+   },
+   "sent_reasoning_effort": null,
+   "latency_s": 1.15,
+   "ttft_s": 0.99,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "Вика",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 1.15,
+     "raw_usage": {
+      "completion_tokens": 20,
+      "prompt_tokens": 60,
+      "total_tokens": 80,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.00128775,
+      "cost": 0.00128775,
+      "plugins": null
+     },
+     "cost_rub": 0.00128775,
+     "sdk_usage": {
+      "input": 60,
+      "output": 20,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.00128775,
+   "costs_per_call": [
+    0.00128775
+   ]
+  },
+  {
+   "check": "sdk_reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "extra_body reasoning.effort=high",
+   "ok": false,
+   "note": "reasoning_tokens=None",
+   "reasoning_tokens": null,
+   "sent_reasoning": {
+    "effort": "high"
+   },
+   "sent_reasoning_effort": null,
+   "latency_s": 79.08,
+   "ttft_s": null,
+   "events": [],
+   "final": null,
+   "error": "ModelBehaviorError(\"Chat Completions stream terminated with finish_reason='length' but produced no assistant text, tool call, or refusal.\")",
+   "llm_calls": [],
+   "cost_rub": 0,
+   "costs_per_call": []
+  },
+  {
+   "check": "sdk_reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "ModelSettings.reasoning effort=minimal (top-level)",
+   "ok": true,
+   "note": "reasoning_tokens=320",
+   "reasoning_tokens": 320,
+   "sent_reasoning": null,
+   "sent_reasoning_effort": "minimal",
+   "latency_s": 3.12,
+   "ttft_s": 3.02,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "Вика",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 3.12,
+     "raw_usage": {
+      "completion_tokens": 369,
+      "prompt_tokens": 60,
+      "total_tokens": 429,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 320,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.01763044,
+      "cost": 0.01763044,
+      "plugins": null
+     },
+     "cost_rub": 0.01763044,
+     "sdk_usage": {
+      "input": 60,
+      "output": 369,
+      "cached": 0,
+      "reasoning": 320
+     }
+    }
+   ],
+   "cost_rub": 0.01763044,
+   "costs_per_call": [
+    0.01763044
+   ]
+  },
+  {
+   "check": "sdk_mid_system",
+   "model": "openai/gpt-5.6-luna",
+   "variant": "system before newest user msg",
+   "ok": true,
+   "obeyed": true,
+   "sent_roles": [
+    "system",
+    "user",
+    "assistant",
+    "system",
+    "user"
+   ],
+   "latency_s": 2.54,
+   "ttft_s": 1.94,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "Попробуй «Маленького принца» для уютного вечера или «Марсианина» Энди Вейера, если хочется увлекательной фантастики. ПИНГВИН",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 2.54,
+     "raw_usage": {
+      "completion_tokens": 76,
+      "prompt_tokens": 102,
+      "total_tokens": 178,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 27,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.01306479,
+      "cost": 0.01306479,
+      "plugins": null
+     },
+     "cost_rub": 0.01306479,
+     "sdk_usage": {
+      "input": 102,
+      "output": 76,
+      "cached": 0,
+      "reasoning": 27
+     }
+    }
+   ],
+   "cost_rub": 0.01306479,
+   "costs_per_call": [
+    0.01306479
+   ]
+  },
+  {
+   "check": "sdk_mid_system",
+   "model": "google/gemini-3.8-flash",
+   "variant": "system before newest user msg",
+   "ok": true,
+   "obeyed": true,
+   "sent_roles": [
+    "system",
+    "user",
+    "assistant",
+    "system",
+    "user"
+   ],
+   "latency_s": 7.35,
+   "ttft_s": 6.81,
+   "events": [
+    "reasoning_item_created",
+    "message_output_created"
+   ],
+   "final": "Для спокойного вечера отлично подойдёт светлая и тёплая книга «Вино из одуванчиков» Рэя Брэдбери. Укутывайся в плед, заваривай чай и отдыхай, ПИНГВИН.",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 7.34,
+     "raw_usage": {
+      "completion_tokens": 713,
+      "prompt_tokens": 79,
+      "total_tokens": 792,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 656,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.31994684,
+      "cost": 0.31994684,
+      "plugins": null
+     },
+     "cost_rub": 0.31994684,
+     "sdk_usage": {
+      "input": 79,
+      "output": 713,
+      "cached": 0,
+      "reasoning": 656
+     }
+    }
+   ],
+   "cost_rub": 0.31994684,
+   "costs_per_call": [
+    0.31994684
+   ]
+  },
+  {
+   "check": "sdk_mid_system",
+   "model": "anthropic/claude-sonnet-5",
+   "variant": "system before newest user msg",
+   "ok": true,
+   "obeyed": true,
+   "sent_roles": [
+    "system",
+    "user",
+    "assistant",
+    "system",
+    "user"
+   ],
+   "latency_s": 2.84,
+   "ttft_s": 2.03,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "Попробуй что-нибудь лёгкое и уютное, например сборник коротких рассказов — не перегрузит перед сном. ПИНГВИН",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 2.84,
+     "raw_usage": {
+      "completion_tokens": 54,
+      "prompt_tokens": 131,
+      "total_tokens": 185,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.09388854,
+      "cost": 0.09388854,
+      "plugins": null
+     },
+     "cost_rub": 0.09388854,
+     "sdk_usage": {
+      "input": 131,
+      "output": 54,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.09388854,
+   "costs_per_call": [
+    0.09388854
+   ]
+  },
+  {
+   "check": "sdk_mid_system",
+   "model": "deepseek/deepseek-v4-flash",
+   "variant": "system before newest user msg",
+   "ok": true,
+   "obeyed": true,
+   "sent_roles": [
+    "system",
+    "user",
+    "assistant",
+    "system",
+    "user"
+   ],
+   "latency_s": 8.94,
+   "ttft_s": 7.18,
+   "events": [
+    "reasoning_item_created",
+    "message_output_created"
+   ],
+   "final": "О, для уютного вечера отлично подойдёт что-то тёплое и с душой! Возьми «Уютная читальня» или лёгкую фантастику вроде «Марсианина» — и под плед с какао самое то. ПИНГВИН",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 8.94,
+     "raw_usage": {
+      "completion_tokens": 321,
+      "prompt_tokens": 179,
+      "total_tokens": 500,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 242,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 171,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.06328577,
+      "cost": 0.06328577,
+      "plugins": null
+     },
+     "cost_rub": 0.06328577,
+     "sdk_usage": {
+      "input": 179,
+      "output": 321,
+      "cached": 171,
+      "reasoning": 242
+     }
+    }
+   ],
+   "cost_rub": 0.06328577,
+   "costs_per_call": [
+    0.06328577
+   ]
+  },
+  {
+   "check": "sdk_mid_system",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "system before newest user msg",
+   "ok": true,
+   "obeyed": true,
+   "sent_roles": [
+    "system",
+    "user",
+    "assistant",
+    "system",
+    "user"
+   ],
+   "latency_s": 1.84,
+   "ttft_s": 0.9,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "Могу предложить что-нибудь уютное — например, \"Маленький принц\" Сент-Экзюпери или детективы Агаты Кристи, они хорошо отвлекают перед сном, как ПИНГВИН.",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 1.84,
+     "raw_usage": {
+      "completion_tokens": 74,
+      "prompt_tokens": 129,
+      "total_tokens": 203,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.05841693,
+      "cost": 0.05841693,
+      "plugins": null
+     },
+     "cost_rub": 0.05841693,
+     "sdk_usage": {
+      "input": 129,
+      "output": 74,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.05841693,
+   "costs_per_call": [
+    0.05841693
+   ]
+  }
+ ]
+}

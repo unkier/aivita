@@ -1,0 +1,834 @@
+{
+ "summary": {
+  "started": "2026-10-03T22:14:57",
+  "duration_s": 85,
+  "sum_cost_rub": 2.4462,
+  "money_before": {
+   "balance": "791.03439332",
+   "spent_total": "3276.25910597",
+   "key_usage": 12.357262,
+   "key_usage_daily": 12.357262
+  },
+  "money_after": {
+   "balance": "788.58815207",
+   "spent_total": "3278.70534722",
+   "key_usage": 14.80350325,
+   "key_usage_daily": 14.80350325
+  },
+  "sdk_requests": [
+   {
+    "model": "openai/gpt-5-nano",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "minimal"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "openai/gpt-5-nano",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": {
+     "effort": "high"
+    },
+    "reasoning_effort": null,
+    "stream_options": {
+     "include_usage": true
+    }
+   },
+   {
+    "model": "openai/gpt-5-nano",
+    "roles": [
+     "system",
+     "user"
+    ],
+    "keys": [
+     "max_tokens",
+     "model",
+     "reasoning_effort",
+     "stream",
+     "stream_options"
+    ],
+    "reasoning": null,
+    "reasoning_effort": "minimal",
+    "stream_options": {
+     "include_usage": true
+    }
+   }
+  ]
+ },
+ "results": [
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "tools, default provider",
+   "ok": true,
+   "note": "tool_call",
+   "stream": false,
+   "latency_s": 1.36,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "tool_calls",
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "toolu_bdrk_01NkLK9zEyUZ5Vc2bkkoAJxw",
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "arguments": "{\"city\": \"Казань\"}"
+     }
+    }
+   ],
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 56,
+    "total_tokens": 638,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.10091262,
+    "cost": 0.10091262,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 582,
+   "completion_tokens": 56,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.10091262,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "tools, require_parameters",
+   "ok": true,
+   "note": "tool_call",
+   "stream": false,
+   "latency_s": 1.29,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "tool_calls",
+   "content": null,
+   "tool_calls": [
+    {
+     "id": "toolu_bdrk_011RtvCnn9Q8F8FMwBiSPD6T",
+     "type": "function",
+     "function": {
+      "name": "get_weather",
+      "arguments": "{\"city\": \"Казань\"}"
+     }
+    }
+   ],
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 56,
+    "total_tokens": 638,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.10091262,
+    "cost": 0.10091262,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 582,
+   "completion_tokens": 56,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.10091262,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "json_schema, default provider",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 1.71,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "{\"mood\":\"anxious\",\"summary\":\"Visited mom in the hospital with sister Anya today. Mom is getting better but still feeling worried about her.\",\"people\":[{\"name\":\"Anya\",\"relation\":\"sister\"},{\"name\":\"Mom\",\"relation\":\"mother\"}]}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 60,
+    "total_tokens": 435,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.0790209,
+    "cost": 0.0790209,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 375,
+   "completion_tokens": 60,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.0790209,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "json_schema, require_parameters",
+   "ok": true,
+   "note": "valid",
+   "stream": false,
+   "latency_s": 1.73,
+   "status": 200,
+   "provider": null,
+   "model_echo": "anthropic/claude-haiku-4.5",
+   "finish_reason": "stop",
+   "content": "{\"mood\":\"anxious\",\"summary\":\"Visited mother in the hospital today with sister. Mother is getting better, but still worried.\",\"people\":[{\"name\":\"Аня\",\"relation\":\"sister\"},{\"name\":\"мама\",\"relation\":\"mother\"}]}",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 375,
+    "completion_tokens": 56,
+    "total_tokens": 431,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.07667954,
+    "cost": 0.07667954,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 375,
+   "completion_tokens": 56,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.07667954,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "tools, default provider, streamed",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.27,
+   "latency_s": 1.31,
+   "provider": "Amazon Bedrock",
+   "chunks": 6,
+   "finish_reason": "tool_calls",
+   "content": "",
+   "tool_calls": [
+    {
+     "name": "get_weather",
+     "arguments": "{\"city\": \"Казани\"}",
+     "id": "toolu_bdrk_014PpY99TrZuCu4CocMyS5FS"
+    }
+   ],
+   "first_tool_call_deltas": [
+    {
+     "index": 0,
+     "id": "toolu_bdrk_014PpY99TrZuCu4CocMyS5FS",
+     "type": "function",
+     "function": {
+      "name": "get_weather"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "{\"city\": \"Каз"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "ани"
+     }
+    }
+   ],
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 56,
+    "total_tokens": 638,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.10091262,
+    "cost": 0.10091262,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 582,
+   "completion_tokens": 56,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.10091262,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "drouter",
+   "model": "anthropic/claude-haiku-4.5",
+   "variant": "tools, require_parameters, streamed",
+   "ok": true,
+   "stream": true,
+   "status": 200,
+   "ttft_s": 1.24,
+   "latency_s": 1.28,
+   "provider": "Amazon Bedrock",
+   "chunks": 6,
+   "finish_reason": "tool_calls",
+   "content": "",
+   "tool_calls": [
+    {
+     "name": "get_weather",
+     "arguments": "{\"city\": \"Казань\"}",
+     "id": "toolu_bdrk_019gn5MC5NwciGxnQ3ohBS4o"
+    }
+   ],
+   "first_tool_call_deltas": [
+    {
+     "index": 0,
+     "id": "toolu_bdrk_019gn5MC5NwciGxnQ3ohBS4o",
+     "type": "function",
+     "function": {
+      "name": "get_weather"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "{\"city\": \"Каз"
+     }
+    },
+    {
+     "index": 0,
+     "function": {
+      "arguments": "ань"
+     }
+    }
+   ],
+   "usage_present": true,
+   "usage_chunk_choices": 1,
+   "usage": {
+    "prompt_tokens": 582,
+    "completion_tokens": 56,
+    "total_tokens": 638,
+    "completion_tokens_details": {
+     "reasoning_tokens": 0,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.10091262,
+    "cost": 0.10091262,
+    "plugins": null
+   },
+   "error": null,
+   "prompt_tokens": 582,
+   "completion_tokens": 56,
+   "reasoning_tokens": 0,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.10091262,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "polza:web_search",
+   "ok": false,
+   "annotations_n": 0,
+   "annotations_sample": [],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 0.07,
+   "status": 400,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Серверные инструменты (polza:*) недоступны для организации",
+    "trace_id": "a60eb7c2-7cbf-4b45-9ee6-205190c0b84d"
+   }
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "polza:web_fetch",
+   "ok": false,
+   "annotations_n": 0,
+   "annotations_sample": [],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 0.03,
+   "status": 400,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Серверные инструменты (polza:*) недоступны для организации",
+    "trace_id": "f173b7d1-40ab-45f9-bf58-4264ba4684c2"
+   }
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "web_search + function tool",
+   "ok": false,
+   "annotations_n": 0,
+   "annotations_sample": [],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 0.03,
+   "status": 400,
+   "error": {
+    "code": "BAD_REQUEST",
+    "message": "Серверные инструменты (polza:*) недоступны для организации",
+    "trace_id": "072d75c3-af28-46d2-bb85-1a9725c0b18f"
+   }
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "plugins: web",
+   "ok": true,
+   "annotations_n": 1,
+   "annotations_sample": [
+    {
+     "type": "url_citation",
+     "url_citation": {
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-argentina-final-report-highlights?utm_source=openai",
+      "title": "Spain 1-0 Argentina | World Cup 2026 report and highlights",
+      "start_index": 84,
+      "end_index": 234
+     }
+    }
+   ],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 6.35,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-mini",
+   "finish_reason": "stop",
+   "content": "Последний чемпионат мира (2026) выиграла сборная Испании — финал 19 июля 2026 года. ([fifa.com](https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-argentina-final-report-highlights?utm_source=openai))",
+   "tool_calls": null,
+   "annotations": [
+    {
+     "type": "url_citation",
+     "url_citation": {
+      "url": "https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026/articles/spain-argentina-final-report-highlights?utm_source=openai",
+      "title": "Spain 1-0 Argentina | World Cup 2026 report and highlights",
+      "start_index": 84,
+      "end_index": 234
+     }
+    }
+   ],
+   "has_reasoning_text": true,
+   "usage": {
+    "prompt_tokens": 8819,
+    "completion_tokens": 358,
+    "total_tokens": 9177,
+    "completion_tokens_details": {
+     "reasoning_tokens": 256,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 3584,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 1.41820273,
+    "cost": 1.41820273,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 8819,
+   "completion_tokens": 358,
+   "reasoning_tokens": 256,
+   "cached_tokens": 3584,
+   "cache_write_tokens": 0,
+   "cost_rub": 1.41820273,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "server_tools",
+   "model": "openai/gpt-5-mini",
+   "variant": "web_search_options",
+   "ok": true,
+   "annotations_n": 0,
+   "annotations_sample": [],
+   "cost_details": null,
+   "server_tool_use": null,
+   "stream": false,
+   "latency_s": 3.2,
+   "status": 200,
+   "provider": null,
+   "model_echo": "openai/gpt-5-mini",
+   "finish_reason": "stop",
+   "content": "Аргентина — победитель чемпионата мира по футболу 2022. https://www.fifa.com/fifaplus/en/articles/argentina-win-fifa-world-cup-qatar-2022-final",
+   "tool_calls": null,
+   "annotations": null,
+   "has_reasoning_text": false,
+   "usage": {
+    "prompt_tokens": 31,
+    "completion_tokens": 262,
+    "total_tokens": 293,
+    "completion_tokens_details": {
+     "reasoning_tokens": 192,
+     "audio_tokens": 0,
+     "image_tokens": 0,
+     "accepted_prediction_tokens": null,
+     "rejected_prediction_tokens": null
+    },
+    "prompt_tokens_details": {
+     "cached_tokens": 0,
+     "cache_write_tokens": 0,
+     "audio_tokens": 0,
+     "video_tokens": 0
+    },
+    "server_tool_use": null,
+    "cost_rub": 0.06225091,
+    "cost": 0.06225091,
+    "plugins": null
+   },
+   "top_level_keys": [
+    "choices",
+    "created",
+    "id",
+    "model",
+    "object",
+    "usage"
+   ],
+   "prompt_tokens": 31,
+   "completion_tokens": 262,
+   "reasoning_tokens": 192,
+   "cached_tokens": 0,
+   "cache_write_tokens": 0,
+   "cost_rub": 0.06225091,
+   "cost_rub_type": "float"
+  },
+  {
+   "check": "images",
+   "model": "tongyi-mai/z-image",
+   "variant": "images.generate sync",
+   "ok": false,
+   "error": "BadRequestError(\"Error code: 400 - {'error': {'traceId': 'bb017b17-366a-4e1c-9acf-d5253aa6b600', 'message': 'Модель tongyi-mai/z-image требует указать aspect_ratio. Допустимые значения: 1:1, 4:3, 3:4, 16:9, 9:16', 'code': 'IMAGE_REQUEST_ERROR'}}\")",
+   "latency_s": 0.11
+  },
+  {
+   "check": "sdk_reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "extra_body reasoning.effort=minimal",
+   "ok": true,
+   "note": "reasoning_tokens=0",
+   "reasoning_tokens": 0,
+   "sent_reasoning": {
+    "effort": "minimal"
+   },
+   "sent_reasoning_effort": null,
+   "latency_s": 1.13,
+   "ttft_s": 1.06,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "Алиса",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 1.13,
+     "raw_usage": {
+      "completion_tokens": 21,
+      "prompt_tokens": 60,
+      "total_tokens": 81,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 0,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.00133458,
+      "cost": 0.00133458,
+      "plugins": null
+     },
+     "cost_rub": 0.00133458,
+     "sdk_usage": {
+      "input": 60,
+      "output": 21,
+      "cached": 0,
+      "reasoning": 0
+     }
+    }
+   ],
+   "cost_rub": 0.00133458,
+   "costs_per_call": [
+    0.00133458
+   ]
+  },
+  {
+   "check": "sdk_reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "extra_body reasoning.effort=high",
+   "ok": true,
+   "note": "reasoning_tokens=7680",
+   "reasoning_tokens": 7680,
+   "sent_reasoning": {
+    "effort": "high"
+   },
+   "sent_reasoning_effort": null,
+   "latency_s": 52.85,
+   "ttft_s": 52.78,
+   "events": [
+    "reasoning_item_created",
+    "message_output_created"
+   ],
+   "final": "Вика",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 52.85,
+     "raw_usage": {
+      "completion_tokens": 7715,
+      "prompt_tokens": 60,
+      "total_tokens": 7775,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 7680,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.36162305,
+      "cost": 0.36162305,
+      "plugins": null
+     },
+     "cost_rub": 0.36162305,
+     "sdk_usage": {
+      "input": 60,
+      "output": 7715,
+      "cached": 0,
+      "reasoning": 7680
+     }
+    }
+   ],
+   "cost_rub": 0.36162305,
+   "costs_per_call": [
+    0.36162305
+   ]
+  },
+  {
+   "check": "sdk_reasoning",
+   "model": "openai/gpt-5-nano",
+   "variant": "ModelSettings.reasoning effort=minimal (top-level)",
+   "ok": true,
+   "note": "reasoning_tokens=896",
+   "reasoning_tokens": 896,
+   "sent_reasoning": null,
+   "sent_reasoning_effort": "minimal",
+   "latency_s": 7.2,
+   "ttft_s": 7.09,
+   "events": [
+    "message_output_created"
+   ],
+   "final": "Вика",
+   "error": null,
+   "llm_calls": [
+    {
+     "latency_s": 7.2,
+     "raw_usage": {
+      "completion_tokens": 921,
+      "prompt_tokens": 60,
+      "total_tokens": 981,
+      "completion_tokens_details": {
+       "accepted_prediction_tokens": null,
+       "audio_tokens": 0,
+       "reasoning_tokens": 896,
+       "rejected_prediction_tokens": null,
+       "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+       "audio_tokens": 0,
+       "cache_write_tokens": 0,
+       "cached_tokens": 0,
+       "video_tokens": 0
+      },
+      "server_tool_use": null,
+      "cost_rub": 0.04347906,
+      "cost": 0.04347906,
+      "plugins": null
+     },
+     "cost_rub": 0.04347906,
+     "sdk_usage": {
+      "input": 60,
+      "output": 921,
+      "cached": 0,
+      "reasoning": 896
+     }
+    }
+   ],
+   "cost_rub": 0.04347906,
+   "costs_per_call": [
+    0.04347906
+   ]
+  }
+ ]
+}

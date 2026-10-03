@@ -1,0 +1,63 @@
+{
+ "summary": {
+  "started": "2026-10-03T22:17:22",
+  "duration_s": 15,
+  "sum_cost_rub": 1.4,
+  "money_before": {
+   "balance": "787.18815207",
+   "spent_total": "3280.10534722",
+   "key_usage": 14.80350325,
+   "key_usage_daily": 14.80350325
+  },
+  "money_after": {
+   "balance": "785.78815207",
+   "spent_total": "3281.50534722",
+   "key_usage": 14.80350325,
+   "key_usage_daily": 14.80350325
+  },
+  "sdk_requests": []
+ },
+ "results": [
+  {
+   "check": "images",
+   "model": "tongyi-mai/z-image",
+   "variant": "images.generate size=1:1",
+   "ok": true,
+   "latency_s": 0.53,
+   "done_after_s": 9.63,
+   "gen_id": "gen_2217742608450195457",
+   "cost_rub": 1.4,
+   "url": "https://s3.polza.ai/f/213952/2026/10/t_8696d012a8ff7969.png",
+   "sdk_dump": {
+    "created": null,
+    "background": null,
+    "data": null,
+    "output_format": null,
+    "quality": null,
+    "size": null,
+    "usage": null,
+    "requestId": "gen_2217742608450195457"
+   },
+   "sdk_extra": {
+    "requestId": "gen_2217742608450195457"
+   },
+   "poll": {
+    "id": "gen_2217742608450195457",
+    "object": "media.generation",
+    "status": "completed",
+    "created": 1791055049,
+    "model": "tongyi-mai/z-image",
+    "data": [
+     {
+      "url": "https://s3.polza.ai/f/213952/2026/10/t_8696d012a8ff7969.png"
+     }
+    ],
+    "usage": {
+     "output_units": 1,
+     "cost_rub": 1.4,
+     "cost": 1.4
+    }
+   }
+  }
+ ]
+}
