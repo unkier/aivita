@@ -25,7 +25,7 @@ The style a Channel imposes on her words: **voice** (short, speakable) or **text
 _Avoid_: Format
 
 **Turn**:
-One message in a History, said by a Person or by Aivita. Append-only.
+One message in a History, said by a Person or by Aivita. Append-only. Not the Agents SDK's "turn", which is one model call.
 _Avoid_: Message (in docs), utterance (that's the hub's term for captured speech)
 
 **History**:
