@@ -25,12 +25,16 @@ The style a Channel imposes on her words: **voice** (short, speakable) or **text
 _Avoid_: Format
 
 **Turn**:
-One message in a History, said by a Person or by Aivita. Append-only. Not the Agents SDK's "turn", which is one model call.
+One message in a History, said by a Person or by Aivita. Append-only. Aivita's Turn holds what actually reached the Person (sent, or heard before a cut-off), not what was generated. Not the Agents SDK's "turn", which is one model call.
 _Avoid_: Message (in docs), utterance (that's the hub's term for captured speech)
 
 **History**:
 One Person's append-only sequence of Turns with Aivita, across all Channels.
 _Avoid_: Session, chat log, transcript
+
+**Audience**:
+Everyone who will receive Aivita's reply: the Person who spoke plus anyone else present. In a 1:1 Channel, just that Person. The privacy wall filters what she says for the whole Audience.
+_Avoid_: Listeners, room
 
 **Conversation**:
 A bounded stretch of one Person's History. Its end triggers memory extraction.
