@@ -14,6 +14,10 @@ _Avoid_: User, account, contact
 The one Person who runs Aivita's home machine and has authority over her: enrolls other people, approves persona edits, grants permissions.
 _Avoid_: Admin, master, root
 
+**Invite**:
+A one-time link the Owner gives a Person so one browser can sign in to web chat as them. The only way a new Person gets into web chat.
+_Avoid_: Registration, sign-up, magic link
+
 ### Talking
 
 **Channel**:
